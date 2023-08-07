@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import WebView from "react-native-webview";
-import {Text, TouchableOpacity, View, SafeAreaView, Image} from "react-native";
+import {Text, TouchableOpacity, View, SafeAreaView, Image, Platform} from "react-native";
 
 export type AppProps = {}
 
@@ -17,7 +17,7 @@ const App: React.FC<AppProps> = () => {
                         </View>
                     </TouchableOpacity>
                     <WebView
-                        source={{ uri: "https://webchat.ebanqo.io/demobank/?fullname=Toyosi%20Oyesola&email=toyosio@ebanqo.com&form_id=email&source=appchat&os=ios"}}
+                        source={{ uri: `https://webchat.ebanqo.io/demobank/?fullname=Toyosi%20Oyesola&email=toyosio@ebanqo.com&form_id=email&source=appchat&os=${Platform.OS}`}}
                         startInLoadingState
                     />
                 </SafeAreaView>
