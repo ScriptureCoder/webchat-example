@@ -1,77 +1,34 @@
 {
   "project_info": {
-    "project_number": "219139914937",
-    "project_id": "rn-raw",
-    "storage_bucket": "rn-raw.appspot.com"
+    "project_number": "829421764821",
+    "project_id": "webchat-example",
+    "storage_bucket": "webchat-example.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:219139914937:android:fe404e23e94b7dd12aef68",
+        "mobilesdk_app_id": "1:829421764821:android:71974e75987046e97fa25c",
         "android_client_info": {
-          "package_name": "com.rnraw"
+          "package_name": "com.example.webchat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "219139914937-veov11vn6gn63m3klhknvlh8f0d9950f.apps.googleusercontent.com",
+          "client_id": "829421764821-11hcpvqiglpv4vha871u8911j3iguol2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCyJoHtU7Sirf20cmSu4I670RUcUePpwiA"
+          "current_key": "AIzaSyB0kdHmEXRhEzA5lwRWQautRWC0pt7h93o"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "219139914937-veov11vn6gn63m3klhknvlh8f0d9950f.apps.googleusercontent.com",
+              "client_id": "829421764821-11hcpvqiglpv4vha871u8911j3iguol2.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "219139914937-0k6qdougf4dmunhkufatn1amcp6451uu.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "org.reactjs.native.example.rnRawV71"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:219139914937:android:80bea0feed7eec0e2aef68",
-        "android_client_info": {
-          "package_name": "com.rnrawv71"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "219139914937-veov11vn6gn63m3klhknvlh8f0d9950f.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCyJoHtU7Sirf20cmSu4I670RUcUePpwiA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "219139914937-veov11vn6gn63m3klhknvlh8f0d9950f.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "219139914937-0k6qdougf4dmunhkufatn1amcp6451uu.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "org.reactjs.native.example.rnRawV71"
-              }
             }
           ]
         }

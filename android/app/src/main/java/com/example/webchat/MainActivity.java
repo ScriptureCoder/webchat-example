@@ -1,4 +1,4 @@
-package com.rnrawv71;
+package com.example.webchat;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -16,7 +16,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "rnRawV71";
+    return "Webchat";
   }
 
   /**
@@ -36,9 +36,9 @@ public class MainActivity extends ReactActivity {
         );
   }
 
-   @Override
+   /* @Override
     protected void onCreate(Bundle savedInstanceState) {
       RNBootSplash.init(this); // <- initialize the splash screen
       super.onCreate(savedInstanceState); // or super.onCreate(null) with react-native-screens
-    }
+    } */
 }

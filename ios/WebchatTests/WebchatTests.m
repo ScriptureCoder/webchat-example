@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface rnRawV71Tests : XCTestCase
+@interface WebchatTests : XCTestCase
 
 @end
 
-@implementation rnRawV71Tests
+@implementation WebchatTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

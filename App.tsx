@@ -28,11 +28,11 @@ const App: React.FC<AppProps> = () => {
                     position:"absolute",
                     right:20,
                     bottom:60,
-                    display:open?"none":"flex"
+                    display:open?"none":"flex",
                 }}
             >
                 <TouchableOpacity onPress={()=>{setOpen(true)}}>
-                    <Image source={require("./src/logo.png")}/>
+                    <Image source={require("./src/logo.png")} style={{height:120, width:120}}/>
                 </TouchableOpacity>
             </View>
         </View>

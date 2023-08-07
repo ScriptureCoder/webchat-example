@@ -1,4 +1,4 @@
-package com.rnrawv71;
+package com.example.webchat;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

@@ -95,9 +95,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.rnrawv71"
+    namespace "com.example.webchat"
     defaultConfig {
-        applicationId "com.rnrawv71"
+        applicationId "com.example.webchat"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

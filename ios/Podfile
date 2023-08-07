@@ -26,7 +26,7 @@ pod 'Firebase', :modular_headers => true
   pod 'GoogleUtilities', :modular_headers => true
   pod 'FirebaseCore', :modular_headers => true
 
-target 'rnRawV71' do
+target 'Webchat' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -48,7 +48,7 @@ target 'rnRawV71' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'rnRawV71Tests' do
+  target 'WebchatTests' do
     inherit! :complete
     # Pods for testing
   end
